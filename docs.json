@@ -4,13 +4,13 @@
   "name": "Mercato CRM — Ajuda",
   "description": "Central de ajuda, tutoriais, documentação e blog do Mercato CRM.",
   "colors": {
-    "primary": "#c47a2c",
-    "light": "#e3a158",
-    "dark": "#8f5a21"
+    "primary": "#6665dd",
+    "light": "#f9fafb",
+    "dark": "#6665dd"
   },
   "favicon": "/favicon.svg",
   "logo": {
-    "light": "/logo/light.svg",
+    "light": "/images",
     "dark": "/logo/dark.svg"
   },
   "seo": {
