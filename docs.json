@@ -8,26 +8,15 @@
     "light": "#f9fafb",
     "dark": "#6665dd"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "logo": {
-    "light": "/images",
-    "dark": "/logo/dark.svg",
-    "href": "https://www.mercatocrm.com.br/assets/logo-mercato-escuro.png"
+    "light": "/logo/logo-mercato-escuro.png",
+    "dark": "/logo/logo-mercato-escuro.png"
   },
   "seo": {
     "indexing": "all"
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Site principal",
-        "href": "https://mercatocrm.com.br"
-      },
-      {
-        "label": "Suporte",
-        "href": "mailto:suporte@mercatocrm.com.br"
-      }
-    ],
+  "navbar": {  
     "primary": {
       "type": "button",
       "label": "Acessar o Mercato",
@@ -189,8 +178,8 @@
           "icon": "globe"
         },
         {
-          "anchor": "Novidades (Canny)",
-          "href": "https://mercatocrm.canny.io",
+          "anchor": "Novidades",
+          "href": "https://mercato.canny.io/changelog",
           "icon": "sparkles"
         }
       ]
@@ -198,10 +187,7 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://www.linkedin.com/company/mercatocrm"
+      "instagram": "https://www.instagram.com/mercatocrm.vendas"
     }
-  },
-  "contextual": {
-    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"]
   }
 }
