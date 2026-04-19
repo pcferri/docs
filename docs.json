@@ -191,28 +191,81 @@
     },
     "links": [
       {
-        "header": "Footer 1",
+        "header": "Produto",
         "items": [
           {
-            "label": "item 1.1",
-            "href": "#1.1"
+            "label": "Página inicial",
+            "href": "https://www.mercatocrm.com.br/"
           },
           {
-            "label": "item 1.2",
-            "href": "#1.2"
+            "label": "Funcionalidades",
+            "href": "https://www.mercatocrm.com.br/#funcionalidades"
+          },
+          {
+            "label": "Solicitar demonstração",
+            "href": "https://www.mercatocrm.com.br/#contato"
+          },
+          {
+            "label": "Entrar no CRM",
+            "href": "https://app.mercatocrm.com.br/"
+          },
+          {
+            "label": "Política de privacidade",
+            "href": "#"
+          },
+          {
+            "label": "Termos de uso",
+            "href": "#"
+          },
+          {
+            "label": "Changelog",
+            "href": "#"
           }
         ]
       },
       {
-        "header": "Footer 2",
+        "header": "Central de ajuda",
         "items": [
           {
-            "label": "item 2.1",
-            "href": "#2.1"
+            "label": "Primeiros passos",
+            "href": "/"
           },
           {
-            "label": "item 2.2",
+            "label": "Central de ajuda",
             "href": "#2.2"
+          },
+          {
+            "label": "Tutoriais",
+            "href": "#"
+          },
+          {
+            "label": "Documentação",
+            "href": "#"
+          },
+          {
+            "label": "Integrações",
+            "href": "#"
+          },
+          {
+            "label": "FAQ",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "header": "Conteúdos populares",
+        "items": [
+          {
+            "label": "Como conectar WhatsApp no CRM",
+            "href": "#"
+          },
+          {
+            "label": "Como importar contatos por CSV",
+            "href": "#"
+          },
+          {
+            "label": "Como organizar atendimento no WhatsApp",
+            "href": "#"
           }
         ]
       }
