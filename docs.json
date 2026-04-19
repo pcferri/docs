@@ -199,5 +199,14 @@
     "heading": {
       "family": "Inter"
     }
+  },
+  "banner": {
+    "dismissible": false
+  },
+  "thumbnails": {
+    "appearance": "light"
+  },
+  "styling": {
+    "eyebrows": "section"
   }
 }
