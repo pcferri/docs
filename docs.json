@@ -188,7 +188,35 @@
   "footer": {
     "socials": {
       "instagram": "https://www.instagram.com/mercatocrm.vendas"
-    }
+    },
+    "links": [
+      {
+        "header": "Footer 1",
+        "items": [
+          {
+            "label": "item 1.1",
+            "href": "#1.1"
+          },
+          {
+            "label": "item 1.2",
+            "href": "#1.2"
+          }
+        ]
+      },
+      {
+        "header": "Footer 2",
+        "items": [
+          {
+            "label": "item 2.1",
+            "href": "#2.1"
+          },
+          {
+            "label": "item 2.2",
+            "href": "#2.2"
+          }
+        ]
+      }
+    ]
   },
   "appearance": {
     "strict": true
