@@ -284,5 +284,8 @@
   },
   "styling": {
     "eyebrows": "section"
+  },
+  "search": {
+    "prompt": "Pesquisar"
   }
 }
