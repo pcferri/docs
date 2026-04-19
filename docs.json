@@ -11,7 +11,8 @@
   "favicon": "/favicon.svg",
   "logo": {
     "light": "/images",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://www.mercatocrm.com.br/assets/logo-mercato-escuro.png"
   },
   "seo": {
     "indexing": "all"
