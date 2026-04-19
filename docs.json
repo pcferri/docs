@@ -14,7 +14,7 @@
     "dark": "/logo/logo-mercato-escuro.png"
   },
   "seo": {
-    "indexing": "all"
+    "indexing": "navigable"
   },
   "navbar": {  
     "primary": {
@@ -199,12 +199,10 @@
     "heading": {
       "family": "Inter"
     }
-  },
-  "banner": {
-    "dismissible": false
-  },
+  },  
   "thumbnails": {
-    "appearance": "light"
+    "appearance": "light",
+    "background": "/images/hero-dark.png"
   },
   "styling": {
     "eyebrows": "section"
