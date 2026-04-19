@@ -189,5 +189,8 @@
     "socials": {
       "instagram": "https://www.instagram.com/mercatocrm.vendas"
     }
+  },
+  "appearance": {
+    "strict": true
   }
 }
