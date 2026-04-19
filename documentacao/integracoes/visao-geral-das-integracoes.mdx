@@ -1,0 +1,42 @@
+---
+title: "Visão geral das integrações no Mercato CRM"
+description: "Entenda como integrações conectam canais, dados e automações externas ao Mercato com segurança e previsibilidade."
+---
+
+## Visão geral
+
+Integrações servem para reduzir trabalho manual: trazer conversas, sincronizar eventos, disparar ações em outros sistemas e manter dados atualizados. Uma integração bem desenhada tem dono, monitoramento e critério de retentativa.
+
+[INSERIR ILUSTRAÇÃO: Mercato conectado a canais e sistemas via webhooks/API]
+
+## Conceitos
+
+- **Canal**: meio de comunicação (ex.: WhatsApp, Instagram) onde conversas acontecem.
+- **Webhook**: envio de eventos do Mercato para um endpoint seu (ou de um middleware).
+- **Importação**: carga de dados por arquivo (CSV) ou conectores, conforme disponível.
+- **Idempotência (boa prática)**: seu sistema deve tolerar eventos repetidos sem duplicar ações destrutivas.
+
+## Regras
+
+- Integrações devem ter **responsável técnico** no time cliente (mesmo que seja alguém externo).
+- **Segredos** (tokens) não devem ser compartilhados em chat informal; use cofre de senhas.
+- Mudanças de número/conta de canal são mudanças operacionais — trate com checklist.
+
+## Exemplos
+
+- WhatsApp conectado para centralizar conversas e relacionar mensagens a oportunidades.
+- Webhook envia evento “oportunidade ganha” para ERP/financeiro para iniciar onboarding.
+
+## Notas práticas
+
+<Warning>
+  Antes de automatizar tudo, valide manualmente um fluxo ponta a ponta. Automação amplifica tanto acertos quanto erros.
+</Warning>
+
+- Documente payloads, campos e significados — integração sem documentação vira dependência de pessoa.
+- Para troubleshooting, guarde correlação: horário, IDs e logs.
+
+## Conteúdos relacionados
+
+- [Integrações (hub)](/integracoes)
+- [Webhooks](/integracoes/webhooks)

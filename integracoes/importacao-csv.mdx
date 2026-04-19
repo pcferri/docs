@@ -1,0 +1,52 @@
+---
+title: "Como integrar importação CSV ao Mercato CRM"
+description: "Use importação CSV como ponte de dados: modelagem, higiene, mapeamento e validação para não poluir sua base."
+---
+
+## O que é esta integração
+
+Importação CSV é a forma mais comum de trazer base histórica de planilhas, outro CRM ou listas de marketing para o Mercato — desde que você trate o arquivo como **contrato de dados**, não como “atalho mágico”.
+
+[INSERIR IMAGEM: tela de importação CSV com preview]
+
+## Quando usar
+
+- Migração inicial de contatos
+- Campanhas com listas segmentadas (com governança)
+- Atualização em lote quando não há integração API disponível
+
+## Benefícios
+
+- Velocidade para enriquecer o funil com histórico
+- Controle sobre o que entra (por colunas mapeadas)
+- Possibilidade de importação incremental por lotes
+
+## Fluxo básico de configuração
+
+<Steps>
+  <Step title="Modelagem: defina campos mínimos">
+    Nome, telefone, e-mail, origem e responsável (quando aplicável) costumam ser o núcleo.
+  </Step>
+  <Step title="Higiene: padronize e deduplique">
+    Remova duplicidades por telefone/e-mail e normalize formato.
+    [INSERIR IMAGEM: planilha antes/depois da higiene]
+  </Step>
+  <Step title="Piloto: importe amostra pequena">
+    Valide mapeamento e corrija o arquivo na origem.
+  </Step>
+  <Step title="Produção: importe em lotes com checkpoint">
+    Separe por campanha/time se necessário — facilita auditoria e rollback operacional.
+    [INSERIR IMAGEM: resumo pós-importação com contagem]
+  </Step>
+</Steps>
+
+## Observações
+
+<Tip>
+  Se você não consegue explicar a origem de uma coluna, ela provavelmente não deveria entrar no primeiro import.
+</Tip>
+
+## Conteúdos relacionados
+
+- [Como importar contatos por CSV](/ajuda/importacao/como-importar-contatos-por-csv)
+- [Como importar leads](/primeiros-passos/como-importar-leads)

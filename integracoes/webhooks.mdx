@@ -1,0 +1,52 @@
+---
+title: "Como integrar Webhooks ao Mercato CRM"
+description: "Use webhooks para enviar eventos do Mercato a outros sistemas e automatizar fluxos com segurança e observabilidade."
+---
+
+## O que é esta integração
+
+Webhooks permitem que o Mercato notifique um endpoint seu quando algo acontece (por exemplo, mudanças relevantes no funil). Isso viabiliza automações no seu ERP, billing, data warehouse ou ferramentas internas.
+
+[INSERIR IMAGEM: diagrama webhook Mercato → endpoint → sistemas]
+
+## Quando usar
+
+- Você precisa sincronizar eventos em tempo quase real
+- Sua stack já tem middleware (ex.: fila, API gateway) para processar payloads
+- Você quer reduzir integrações manuais e planilhas de reconciliação
+
+## Benefícios
+
+- Automação com gatilhos explícitos (menos “achismo operacional”)
+- Melhor rastreabilidade quando combinado com logs e IDs
+- Base para evoluir integrações sem travar o time comercial no dia a dia
+
+## Fluxo básico de configuração
+
+<Steps>
+  <Step title="Defina o evento e o destino">
+    Escolha quais eventos importam e para qual sistema eles vão. Menos eventos bem modelados vence “tudo em tudo”.
+  </Step>
+  <Step title="Implemente endpoint idempotente">
+    Prepare seu endpoint para validar assinatura (se aplicável), registrar payload e tolerar retries sem duplicar ações críticas.
+  </Step>
+  <Step title="Configure o webhook no Mercato">
+    Cadastre URL, segredos e mapeamento mínimo conforme a interface do produto.
+    [INSERIR IMAGEM: tela de cadastro de webhook]
+  </Step>
+  <Step title="Teste com carga pequena e monitore">
+    Valide casos felizes e falhas (timeout, 500, formato inesperado).
+    [INSERIR IMAGEM: logs de entrega ou painel de falhas]
+  </Step>
+</Steps>
+
+## Observações
+
+<Info>
+  Webhook bom tem dono: alguém que entende payload, versão e como reprocessar eventos.
+</Info>
+
+## Conteúdos relacionados
+
+- [Visão geral das integrações](/documentacao/integracoes/visao-geral-das-integracoes)
+- [Documentação](/documentacao)

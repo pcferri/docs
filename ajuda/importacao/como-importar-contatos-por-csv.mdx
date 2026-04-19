@@ -1,0 +1,51 @@
+---
+title: "Como importar contatos por CSV no Mercato CRM | Passo a passo"
+description: "Importe contatos com CSV padronizado: mapeamento de colunas, validação e auditoria pós-importação."
+---
+
+## Introdução
+
+Importação por CSV é a forma mais rápida de povoar o CRM — e também a mais arriscada se o arquivo vier sem padrão. A meta é importar uma amostra, validar, e só então escalar volume.
+
+[INSERIR IMAGEM: tela de importação CSV]
+
+## O que você vai fazer
+
+- Preparar um arquivo com colunas consistentes
+- Enviar a importação e mapear campos corretamente
+- Auditar resultados e corrigir na origem antes do próximo lote
+
+## Passo a passo
+
+<Steps>
+  <Step title="Defina a chave primária do seu negócio">
+    Em geral: telefone e/ou e-mail. Isso orienta deduplicação e evita “mesmo cliente” em vários registros.
+  </Step>
+  <Step title="Padronize o CSV">
+    Use uma linha por contato, sem células mescladas, com cabeçalhos claros (`nome`, `telefone`, `email`, `origem`).
+    [INSERIR IMAGEM: exemplo de cabeçalhos e linhas válidas]
+  </Step>
+  <Step title="Faça upload e mapeie colunas">
+    Relacione cada coluna do arquivo ao campo do Mercato. Revise campos obrigatórios e formatos.
+    [INSERIR IMAGEM: tela de mapeamento de colunas]
+  </Step>
+  <Step title="Importe lote piloto e audite">
+    Após importar, abra uma amostra aleatória e confira responsável, tags, origem e telefone formatado.
+    [INSERIR IMAGEM: tela de importação concluída com resumo]
+  </Step>
+</Steps>
+
+## Observações
+
+<Tip>
+  Se você tem várias origens, não misture convenções (`IG`, `insta`, `instagram`). Padronize um vocabulário pequeno e estável.
+</Tip>
+
+- Importação não substitui governança: combine regras de qualidade com o time comercial.
+- Se o arquivo tem caracteres especiais, prefira UTF-8 para reduzir problemas de encoding.
+
+## Veja também
+
+- [Integração importação CSV](/integracoes/importacao-csv)
+- [Como importar leads (primeiros passos)](/primeiros-passos/como-importar-leads)
+- [Como criar uma oportunidade](/ajuda/funil/como-criar-uma-oportunidade)

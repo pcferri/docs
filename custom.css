@@ -1,0 +1,17 @@
+/* Mercato CRM — subtle help-center polish on top of Mint theme */
+
+.mintlify-custom {
+  --mercato-amber: #c47a2c;
+  --mercato-amber-soft: rgba(196, 122, 44, 0.12);
+  --mercato-charcoal: #2b2b2b;
+}
+
+/* Slightly warmer page background in light mode for SaaS help-center feel */
+html:not(.dark) body {
+  background-color: #faf8f5;
+}
+
+/* Card hover: gentle lift consistent with brand */
+[data-component="card"]:hover {
+  border-color: rgba(196, 122, 44, 0.35);
+}

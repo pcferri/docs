@@ -1,0 +1,41 @@
+---
+title: "Como funcionam os workspaces no Mercato CRM"
+description: "Entenda workspaces: separação de contexto, governança de dados e quando criar mais de um workspace."
+---
+
+## Visão geral
+
+Workspaces existem para separar contextos operacionais: times diferentes, unidades de negócio ou carteiras que não devem compartilhar a mesma base e configurações.
+
+[INSERIR ILUSTRAÇÃO: múltiplos workspaces e times]
+
+## Conceitos
+
+- **Workspace**: ambiente com usuários, dados e configurações associadas.
+- **Isolamento**: mudanças em um workspace não devem “vazar” para outro sem processo explícito.
+- **Administrador**: perfil responsável por convites, integrações e políticas básicas.
+
+## Regras
+
+- Usuários devem existir com propósito: cada acesso aumenta superfície de risco e ruído.
+- Integrações e canais costumam pertencer a um workspace específico — evite conectar o mesmo canal em contextos conflitantes sem estratégia.
+- Padronize nomenclatura entre workspaces só se fizer sentido analiticamente; às vezes é melhor aceitar diferenças reais entre unidades.
+
+## Exemplos
+
+- Holding com duas marcas: um workspace por marca, C-level com acesso controlado aos dois.
+- Operação única: um workspace, com times separados por permissões e filas de atendimento.
+
+## Notas práticas
+
+<Info>
+  Multiplicar workspaces sem necessidade pode fragmentar relatórios. Crie outro workspace quando o isolamento for requisito, não quando for “organizar por capricho”.
+</Info>
+
+- Ao migrar time, planeje transferência de ownership de oportunidades e conversas críticas.
+- Documente quem é admin de cada workspace — evita dependência de uma única pessoa sem backup.
+
+## Conteúdos relacionados
+
+- [Como funcionam permissões de usuários](/documentacao/permissoes/como-funcionam-permissoes-de-usuarios)
+- [Visão geral das integrações](/documentacao/integracoes/visao-geral-das-integracoes)

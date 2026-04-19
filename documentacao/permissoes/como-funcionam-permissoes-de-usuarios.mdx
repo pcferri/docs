@@ -1,0 +1,42 @@
+---
+title: "Como funcionam permissões de usuários no Mercato CRM"
+description: "Entenda permissões: princípios de menor privilégio, papéis comuns e como evitar vazamento de dados e configurações."
+---
+
+## Visão geral
+
+Permissões definem o que cada pessoa pode ver e alterar. No Mercato, isso impacta diretamente qualidade de dados: usuários com acesso errado ou excessivo tendem a gerar ruído, ou a evitar registrar informação por medo de exposição.
+
+[INSERIR ILUSTRAÇÃO: matriz simples papel × permissões]
+
+## Conceitos
+
+- **Papel (role)**: conjunto de permissões associadas a uma função (ex.: vendedor, líder, admin).
+- **Leitura vs escrita**: ver dados não implica poder alterar configurações sensíveis.
+- **Escopo**: às vezes a permissão é global; às vezes limitada a times/carteiras (dependendo do seu desenho operacional).
+
+## Regras
+
+- **Menor privilégio**: conceda o mínimo necessário para trabalhar bem.
+- **Administração é rara**: poucos administradores, bem treinados.
+- **Auditoria humana**: relatórios e exportações devem ter dono responsável.
+
+## Exemplos
+
+- Vendedor: cria/edita oportunidades e conversa com clientes da própria carteira, sem acessar billing.
+- Líder: vê pipeline do time, edita campos de coaching, não mexe em integrações sem necessidade.
+- Admin: gerencia usuários e integrações, com checklist de mudanças.
+
+## Notas práticas
+
+<Warning>
+  Compartilhar login destrói o conceito de permissão. Se isso acontecer, trate como incidente operacional e corrija com usuários individuais.
+</Warning>
+
+- Revise permissões quando alguém muda de função — é mais importante do que revisar quando alguém entra.
+- Para integrações, defina quem pode rotacionar tokens/chaves e como isso é documentado.
+
+## Conteúdos relacionados
+
+- [Como adicionar um usuário](/ajuda/usuarios/como-adicionar-um-usuario)
+- [Como estruturar sua operação comercial](/tutoriais/equipe/como-estruturar-sua-operacao-comercial-no-mercato)

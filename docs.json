@@ -1,69 +1,176 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Mercato CRM — Ajuda",
+  "description": "Central de ajuda, tutoriais, documentação e blog do Mercato CRM.",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#c47a2c",
+    "light": "#e3a158",
+    "dark": "#8f5a21"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Site principal",
+        "href": "https://mercatocrm.com.br"
+      },
+      {
+        "label": "Suporte",
+        "href": "mailto:suporte@mercatocrm.com.br"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Acessar o Mercato",
+      "href": "https://mercatocrm.com.br"
+    }
+  },
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Primeiros passos",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Começando",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "primeiros-passos",
+              "primeiros-passos/como-configurar-sua-conta",
+              "primeiros-passos/como-conectar-whatsapp",
+              "primeiros-passos/como-importar-leads",
+              "primeiros-passos/como-convidar-sua-equipe",
+              "primeiros-passos/como-criar-seu-primeiro-funil",
+              "primeiros-passos/checklist-inicial"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Central de ajuda",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Visão geral",
+            "pages": ["ajuda"]
+          },
+          {
+            "group": "WhatsApp",
             "pages": [
-              "api-reference/introduction"
+              "ajuda/whatsapp/como-conectar-whatsapp",
+              "ajuda/whatsapp/como-reconectar-whatsapp"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Importação e dados",
+            "pages": ["ajuda/importacao/como-importar-contatos-por-csv"]
+          },
+          {
+            "group": "Usuários e acesso",
+            "pages": ["ajuda/usuarios/como-adicionar-um-usuario"]
+          },
+          {
+            "group": "Funil e vendas",
+            "pages": ["ajuda/funil/como-criar-uma-oportunidade"]
+          },
+          {
+            "group": "Cadências",
+            "pages": ["ajuda/cadencias/como-pausar-uma-cadencia"]
+          },
+          {
+            "group": "IA",
+            "pages": ["ajuda/ia/como-funcionam-os-creditos-de-ia"]
+          },
+          {
+            "group": "Cobrança",
+            "pages": ["ajuda/cobranca/como-alterar-seu-plano"]
+          }
+        ]
+      },
+      {
+        "tab": "Tutoriais",
+        "groups": [
+          {
+            "group": "Aprendizado",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "tutoriais",
+              "tutoriais/implantacao/como-implantar-o-mercato-do-zero",
+              "tutoriais/whatsapp/como-organizar-o-atendimento-no-whatsapp",
+              "tutoriais/cadencias/como-configurar-cadencias-comerciais",
+              "tutoriais/equipe/como-estruturar-sua-operacao-comercial-no-mercato"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "Documentação",
+        "groups": [
+          {
+            "group": "Fundamentos",
+            "pages": [
+              "documentacao",
+              "documentacao/conceitos/visao-geral-do-mercato",
+              "documentacao/workspaces/como-funcionam-os-workspaces",
+              "documentacao/permissoes/como-funcionam-permissoes-de-usuarios",
+              "documentacao/funil/estrutura-do-funil-de-vendas",
+              "documentacao/cadencias/como-funcionam-as-cadencias",
+              "documentacao/integracoes/visao-geral-das-integracoes"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrações",
+        "groups": [
+          {
+            "group": "Canais e dados",
+            "pages": [
+              "integracoes",
+              "integracoes/whatsapp",
+              "integracoes/instagram",
+              "integracoes/webhooks",
+              "integracoes/importacao-csv"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Blog",
+        "groups": [
+          {
+            "group": "Artigos",
+            "pages": [
+              "blog",
+              "blog/como-nao-perder-leads-no-whatsapp",
+              "blog/o-que-e-cadencia-comercial-e-como-usar",
+              "blog/como-organizar-atendimento-comercial-no-whatsapp",
+              "blog/crm-para-pequenas-empresas-como-comecar",
+              "blog/como-melhorar-seu-follow-up-sem-parecer-insistente",
+              "blog/como-usar-ia-no-processo-comercial"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQ",
+        "groups": [
+          {
+            "group": "Perguntas frequentes",
+            "pages": ["faq"]
+          }
+        ]
+      },
+      {
+        "tab": "Novidades do produto",
+        "groups": [
+          {
+            "group": "Roadmap e feedback",
+            "pages": ["novidades-do-produto"]
           }
         ]
       }
@@ -71,52 +178,29 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Início",
+          "href": "/",
+          "icon": "house"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Site Mercato",
+          "href": "https://mercatocrm.com.br",
+          "icon": "globe"
+        },
+        {
+          "anchor": "Novidades (Canny)",
+          "href": "https://mercatocrm.canny.io",
+          "icon": "sparkles"
         }
       ]
     }
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/mercatocrm"
     }
   },
   "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+    "options": ["copy", "view", "chatgpt", "claude", "perplexity", "mcp", "cursor", "vscode"]
   }
 }
