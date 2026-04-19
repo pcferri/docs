@@ -192,5 +192,12 @@
   },
   "appearance": {
     "strict": true
+  },
+  "fonts": {
+    "family": "Inter",
+    "weight": 400,
+    "heading": {
+      "family": "Inter"
+    }
   }
 }
