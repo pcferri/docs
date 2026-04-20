@@ -27,6 +27,25 @@
     }
   },
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Início",
+          "icon": "house",
+          "href": "/"
+        },
+        {
+          "anchor": "Site Mercato",
+          "icon": "globe",
+          "href": "https://mercatocrm.com.br"
+        },
+        {
+          "anchor": "Novidades",
+          "icon": "sparkles",
+          "href": "https://mercato.canny.io/changelog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Primeiros passos",
@@ -50,7 +69,9 @@
         "groups": [
           {
             "group": "Visão geral",
-            "pages": ["ajuda"]
+            "pages": [
+              "ajuda"
+            ]
           },
           {
             "group": "WhatsApp",
@@ -61,27 +82,39 @@
           },
           {
             "group": "Importação e dados",
-            "pages": ["ajuda/importacao/como-importar-contatos-por-csv"]
+            "pages": [
+              "ajuda/importacao/como-importar-contatos-por-csv"
+            ]
           },
           {
             "group": "Usuários e acesso",
-            "pages": ["ajuda/usuarios/como-adicionar-um-usuario"]
+            "pages": [
+              "ajuda/usuarios/como-adicionar-um-usuario"
+            ]
           },
           {
             "group": "Funil e vendas",
-            "pages": ["ajuda/funil/como-criar-uma-oportunidade"]
+            "pages": [
+              "ajuda/funil/como-criar-uma-oportunidade"
+            ]
           },
           {
             "group": "Cadências",
-            "pages": ["ajuda/cadencias/como-pausar-uma-cadencia"]
+            "pages": [
+              "ajuda/cadencias/como-pausar-uma-cadencia"
+            ]
           },
           {
             "group": "IA",
-            "pages": ["ajuda/ia/como-funcionam-os-creditos-de-ia"]
+            "pages": [
+              "ajuda/ia/como-funcionam-os-creditos-de-ia"
+            ]
           },
           {
             "group": "Cobrança",
-            "pages": ["ajuda/cobranca/como-alterar-seu-plano"]
+            "pages": [
+              "ajuda/cobranca/como-alterar-seu-plano"
+            ]
           }
         ]
       },
@@ -154,39 +187,25 @@
         "groups": [
           {
             "group": "Perguntas frequentes",
-            "pages": ["faq"]
+            "pages": [
+              "faq"
+            ]
           }
         ]
       },
       {
-        "tab": "Novidades do produto",
+        "tab": "Novidades",
+        "icon": "lightbulb",
         "groups": [
           {
             "group": "Roadmap e feedback",
-            "pages": ["novidades-do-produto"]
+            "pages": [
+              "novidades-do-produto"
+            ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Início",
-          "href": "/",
-          "icon": "house"
-        },
-        {
-          "anchor": "Site Mercato",
-          "href": "https://mercatocrm.com.br",
-          "icon": "globe"
-        },
-        {
-          "anchor": "Novidades",
-          "href": "https://mercato.canny.io/changelog",
-          "icon": "sparkles"
-        }
-      ]
-    }
+    ]
   },
   "footer": {
     "links": [
