@@ -167,6 +167,7 @@
       },
       {
         "tab": "Blog",
+        "icon": "clipboard-list",
         "groups": [
           {
             "group": "Artigos",
@@ -184,6 +185,7 @@
       },
       {
         "tab": "FAQ",
+        "icon": "message-circle-question-mark",
         "groups": [
           {
             "group": "Perguntas frequentes",
@@ -227,18 +229,6 @@
           {
             "label": "Entrar no CRM",
             "href": "https://app.mercatocrm.com.br/"
-          },
-          {
-            "label": "Política de privacidade",
-            "href": "#"
-          },
-          {
-            "label": "Termos de uso",
-            "href": "#"
-          },
-          {
-            "label": "Changelog",
-            "href": "#"
           }
         ]
       },
