@@ -291,7 +291,8 @@
     ]
   },
   "appearance": {
-    "strict": true
+    "strict": false,
+    "default": "system"
   },
   "fonts": {
     "family": "Inter",
